@@ -1,10 +1,16 @@
-# Simple html and Reveal JS example
-
-::: {.content-visible when-format="html" unless-format="revealjs"}
-[Link to the slides](slides/hello.html)
-:::
+---
+title: Simple html and Reveal JS example
+format: 
+  html: default
+  revealjs: 
+    output-file: slides-index.html
+---
 
 ## First subsection
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+[Link to the slides](slides-index.html)
+:::
 
 - This is the content of the first subsection
 - The idea is to generate a website in the form of an html and the
