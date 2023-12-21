@@ -1,0 +1,22 @@
+# Simple html and Reveal JS example
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+[Link to the slides](slides/hello.html)
+:::
+
+## First subsection
+
+- This is the content of the first subsection
+- The idea is to generate a website in the form of an html and the
+  corresponding set of slides.
+- The following content is only visible in the html website.
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+Content visible only in the website
+:::
+
+- The following content is only visible in the slides.
+
+::: {.content-visible when-format="revealjs"}
+Content visible only in the Reveal JS
+:::
