@@ -22,3 +22,5 @@ the other.
 
 In order to generate the website and the Reveal JS slides in the folder
 `slides` I run the script `render.sh` code locally.
+
+The folder `docs` contains the intended output (which is correct locally).
