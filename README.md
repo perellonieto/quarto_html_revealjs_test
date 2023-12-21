@@ -6,13 +6,13 @@ Quarto
 The idea is to generate the website with the command
 
 ```
-quarto render hello.qmd --to html
+quarto render index.qmd --to html
 ```
 
 And the slides with the command
 
 ```
-quarto render hello.qmd --to revealjs
+quarto render index.qmd --to revealjs
 ```
 
 However, they both save all the files in the same location and one overwrites
