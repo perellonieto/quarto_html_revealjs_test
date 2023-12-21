@@ -26,3 +26,6 @@ Content visible only in the website
 ::: {.content-visible when-format="revealjs"}
 Content visible only in the Reveal JS
 :::
+
+- This text should be visible if the GitHub action has been configured
+  correctly.
