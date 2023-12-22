@@ -1,15 +1,42 @@
 # quarto_html_revealjs_test
 
-Example on how to generate an html website and corresponding Reveal JS slides
-from the same source Quarto Markdown file.
+Running 
 
-The script `render.sh` contains the code to render the project into the folder
-`docs` which is served by GitHub Pages.
+```
+quarto render index.qmd
+```
 
-## TODO
+Generates the following folders
 
-- Create a GitHub action that does this automatically. I have added a new
-  workflow and selected gh-pages branch. From the next commit the page should
-  be build and published by the quarto actions.
+```
+index_files
+├── figure-html
+├── figure-revealjs
+└── libs
 
+3 directories, 0 files
+```
+
+containing the figures for the html and the revealjs
+
+However if we use the configuration file `_quarto.yml` then running
+
+```
+quarto render index.qmd
+# or
+# quarto render .
+```
+
+generates the following folders
+
+```
+_site/
+├── index_files
+├── index.html
+└── slides-index.html
+
+1 directory, 2 files
+```
+
+which have the folder with the figures for the revealjs missing
 
