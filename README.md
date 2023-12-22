@@ -32,10 +32,11 @@ generates the following folders
 ```
 _site/
 ├── index_files
+│   └── figure-html
 ├── index.html
 └── slides-index.html
 
-1 directory, 2 files
+2 directories, 2 files
 ```
 
 which have the folder with the figures for the revealjs missing
