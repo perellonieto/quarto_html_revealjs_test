@@ -45,7 +45,7 @@ output-dir: .
 
 ## Case 2
 
-When rendering the case1 `output-dir: _site` the `figure-revealjs` folder is
+When rendering the case2 `output-dir: _site` the `figure-revealjs` folder is
 missing. The resulting `slides-index.html` is not shown properly.
 
 ```
