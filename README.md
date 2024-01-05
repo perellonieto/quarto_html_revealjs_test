@@ -1,5 +1,7 @@
 # quarto_html_revealjs_test
 
+**EDIT**: The pre-release version 1.4.533 fixes the issue explained in this repository. The example used the current release v1.3.450 (on January 3rd, 2024).
+
 This example includes two `_quarto.yml` configuration files with the only
 difference being for case1 `output-dir: .` and for case2 `output-dir: _site`.
 
@@ -45,7 +47,7 @@ output-dir: .
 
 ## Case 2
 
-When rendering the case1 `output-dir: _site` the `figure-revealjs` folder is
+When rendering the case2 `output-dir: _site` the `figure-revealjs` folder is
 missing. The resulting `slides-index.html` is not shown properly.
 
 ```
