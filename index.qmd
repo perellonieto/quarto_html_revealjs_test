@@ -4,6 +4,10 @@ format:
   html: default
   revealjs: 
     output-file: slides-index.html
+  pdf: default
+  epub: default
+  docx: default
+  odt: default
 jupyter: python3
 ---
 
